@@ -57,9 +57,6 @@ export default function HeroSection() {
                                     container: {
                                         visible: {
                                             transition: {
-                                                type: 'spring' as const,
-                                                bounce: 0.4,
-                                                duration: 0.8,
                                                 staggerChildren: 0.05,
                                                 delayChildren: 0.75,
                                             },
